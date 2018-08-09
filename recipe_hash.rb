@@ -30,7 +30,7 @@ perfect_10_recipe = {
   :baking_powder  => "1/2 tea spoon",
   :baking_soda => "1/4 tea spoon",
   :Xanthan_Gum => "1/2 tea spoon"
-  :slivered_almonds_lightly_toasted => "1/4 cup",
+  :slivered_almonds => "1/4 cup",
   :mini_dark_chocolate_chips => "3/4 cup",
   :olive_oil => "1/2 cup",
   :agave => "1/4 cup"
@@ -53,6 +53,7 @@ end
 
 #4: Now use `puts` to print out just the ingredients without the amounts. You'll want to use the `each_key` method.
 def ingredients(perfect_10_recipe)
+  puts perfect_10_recipe[keys]
 end
 
 #5: Now use `puts` to print out just the amounts without the ingredients. You'll want to use the `each_value` method.
