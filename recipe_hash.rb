@@ -47,4 +47,4 @@ def number_ingredients(perfect_10_recipe)
   # perfect_10_recipe.length
   # return number_ingredients
 end
-puts number_ingredients.size 
+puts number_ingredients.key.count
