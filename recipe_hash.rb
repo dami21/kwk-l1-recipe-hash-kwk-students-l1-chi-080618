@@ -22,7 +22,7 @@ perfect_hash_recipe = {"almond flour" => "2 cups"
 #  - agave - 1/4 cup
 # All of the ingredients should be symbols and the amounts should be strings. Remember that symbols start with a colon and be sure to sub underscores for spaces.
 
-perfect_10_recipe = {almond flour - 2 cups
+perfect_10_recipe = {"almond flour" => 2 "cups", 
   - gluten freewhole oats - 1 cup
   - kosher salt - 1/2 tea spoon
   - baking powder  - 1/2 tea spoon
